@@ -7,7 +7,7 @@ if user == '1':
     game = VsComputer()
     game.start()
 elif user == '2':
-    game = TwoPlayerGame()
+    game = TwoPlayerMode()
     game.start()
 else:
     print("Invalid input. Please choose 1 or 2.")
