@@ -2,8 +2,8 @@ class TwoPlayerMode:
     def start(self): 
         print("Starting two player game...")
 
-        person1 = str(input("Choose rock ('r'), paper ('p'), or scissors ('s'): "))
-        person2 = str(input("Choose rock ('r'), paper ('p'), or scissors ('s'): "))
+        person1 = str(input("Choose rock ('r'), paper ('p'), or scissors ('s'):  "))
+        person2 = str(input("Choose rock ('r'), paper ('p'), or scissors ('s'):  "))
 
 
         if person1 == 'r' and person2 == 's':

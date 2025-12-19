@@ -1,7 +1,7 @@
 from TwoPlayerMode import TwoPlayerMode
 from VsComputer import VsComputer
 
-user = input("Choose your game mode: (1) Vs Computer , (2) Two Player Game")
+user = input("Choose your game mode: (1) Vs Computer , (2) Two Player Game   ")
 
 if user == '1':
     game = VsComputer()
