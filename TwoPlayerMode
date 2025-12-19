@@ -1,0 +1,26 @@
+class TwoPlayerMode:
+    def start(self): 
+        print("Starting two player game...")
+        self.player1 = person1
+        self.player2 = person2
+
+person1 = input("Choose rock (r), paper (p), or scissors (s): ")
+person2 = input("Choose rock (r), paper (p), or scissors (s): ")
+
+
+if person1 == 'r' and person2 == 's':
+    print("Person 1 Wins!")
+elif person1 == 's' and person2 == 'p':
+    print("Person 1 Wins!")
+elif person1 == 'p' and person2 == 'r':
+    print("Person 1 Wins!")
+elif person2 == 'r' and person1 == 's':
+    print("Person 2 Wins!")
+elif person2 == 's' and person1 == 'p':
+    print("Person 2 Wins!")
+elif person2 == 'p' and person1 == 'r':
+    print("Person 2 Wins!")
+elif person1 == person2:
+    print("It's a tie!")
+else:
+    print("Wrong Input!")
