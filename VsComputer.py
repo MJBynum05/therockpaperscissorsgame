@@ -4,8 +4,6 @@ import random
 class VsComputer:
     def start(self):
         print ("Starting game vs computer...")
-        self.person = person 
-
         person = input("Choose rock ('r'), paper ('p'), or scissors ('s'): ")
         computer = random.choice(['r', 'p', 's'])
 
