@@ -1,10 +1,18 @@
+import os
+
 class TwoPlayerMode:
-    def start(self): 
+    def clear(self):
+        os.system("cls" if os.name == "nt" else "clear")
+
+    def start(self):
         print("Starting two player game...")
 
-        person1 = str(input("Choose rock ('r'), paper ('p'), or scissors ('s'):  "))
-        person2 = str(input("Choose rock ('r'), paper ('p'), or scissors ('s'):  "))
+        person1 = input("Player 1, choose rock ('r'), paper ('p'), or scissors ('s'): ")
+        self.clear()
+        input("\nPass to Player 2, press ENTER when ready...")
 
+        person2 = input("Player 2, choose rock ('r'), paper ('p'), or scissors ('s'): ")
+        self.clear()
 
         if person1 == 'r' and person2 == 's':
             print("Person 1 Wins!")

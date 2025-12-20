@@ -11,4 +11,3 @@ elif user == '2':
     game.start()
 else:
     print("Invalid input. Please choose 1 or 2.")
-
