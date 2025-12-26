@@ -1,5 +1,5 @@
 import random
-
+import keyboard
 
 class VsComputer:
     def start(self):
@@ -9,20 +9,22 @@ class VsComputer:
 
         print("Computer chose: " + computer)
 
+     
         if computer == 'r' and person == 's':
-            print("You Lose!")
+            print("You Lose! Press t to restart game or 'q' to quit.")
         elif computer == 's' and person == 'p':
-            print("You Lose!")
+            print("You Lose! Press t to restart game or 'q' to quit.")
         elif computer == 'p' and person == 'r':
-            print("You Lose!")
+            print("You Lose! Press t to restart game or 'q' to quit.")
         elif computer == 's' and person == 'r':
-            print("You Win!")
+            print("You Win! Press t to restart game or 'q' to quit.")
         elif computer == 'p' and person == 's':
-            print("You Win!")
+            print("You Win! Press t to restart game or 'q' to quit.")
         elif computer == 'r' and person == 'p':
-            print("You Win!")
+            print("You Win! Press t to restart game or 'q' to quit.")
         elif computer == person:
-            print("It's a tie!")
+            print("It's a tie! Press t to restart game or 'q' to quit.")
         else:
-            print("Wrong Input!")
+            print("Wrong Input! Press t to restart game or 'q' to quit.")
+        return
 
