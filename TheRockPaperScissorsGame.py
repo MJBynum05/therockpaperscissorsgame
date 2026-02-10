@@ -1,11 +1,8 @@
 from TwoPlayerMode import TwoPlayerMode
 from VsComputer import VsComputer
-import keyboard
+# import keyboard  # Only needed if you want "press-to-trigger" logic
 
-user = input("Choose your game mode: (1) Vs Computer , (2) Two Player Game   ")
-key = keyboard.read_key()
-if keyboard.is_pressed('t'):
-
+user = input("Choose your game mode: (1) Vs Computer, (2) Two Player Game: ")
 
 if user == '1':
     game = VsComputer()
@@ -15,6 +12,3 @@ elif user == '2':
     game.start()
 else:
     print("Invalid input. Please choose 1 or 2.")
-
-if key == 'q':
-    print ("Goodbye!")

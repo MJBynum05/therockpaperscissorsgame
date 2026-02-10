@@ -17,20 +17,20 @@ class TwoPlayerMode:
         self.clear()
 
         if person1 == 'r' and person2 == 's':
-            print("Person 1 Wins! Press 't' to restart game or 'q' to quit.")
+            print("Person 1 Wins!")
         elif person1 == 's' and person2 == 'p':
-            print("Person 1 Wins! Press 't' to restart game or 'q' to quit.")
+            print("Person 1 Wins!")
         elif person1 == 'p' and person2 == 'r':
-            print("Person 1 Wins! Press 't' to restart game or 'q' to quit.")
+            print("Person 1 Wins!")
         elif person2 == 'r' and person1 == 's':
-            print("Person 2 Wins! Press 't' to restart game or 'q' to quit.")
+            print("Person 2 Wins!")
         elif person2 == 's' and person1 == 'p':
-            print("Person 2 Wins! Press 't' to restart game or 'q' to quit.")
+            print("Person 2 Wins!")
         elif person2 == 'p' and person1 == 'r':
-            print("Person 2 Wins! Press 't' to restart game or 'q' to quit.")
+            print("Person 2 Wins!")
         elif person1 == person2:
-            print("It's a tie! Press 't' to restart game or 'q' to quit.")
+            print("It's a tie!")
         else:
-            print("Wrong Input! Press 't' to restart game or 'q' to quit.")
+            print("Wrong Input!")
 
         return

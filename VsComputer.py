@@ -11,20 +11,20 @@ class VsComputer:
 
      
         if computer == 'r' and person == 's':
-            print("You Lose! Press t to restart game or 'q' to quit.")
+            print("You Lose!")
         elif computer == 's' and person == 'p':
-            print("You Lose! Press t to restart game or 'q' to quit.")
+            print("You Lose!")
         elif computer == 'p' and person == 'r':
-            print("You Lose! Press t to restart game or 'q' to quit.")
+            print("You Lose!")
         elif computer == 's' and person == 'r':
-            print("You Win! Press t to restart game or 'q' to quit.")
+            print("You Win!")
         elif computer == 'p' and person == 's':
-            print("You Win! Press t to restart game or 'q' to quit.")
+            print("You Win!")
         elif computer == 'r' and person == 'p':
-            print("You Win! Press t to restart game or 'q' to quit.")
+            print("You Win!")
         elif computer == person:
-            print("It's a tie! Press t to restart game or 'q' to quit.")
+            print("It's a tie!")
         else:
-            print("Wrong Input! Press t to restart game or 'q' to quit.")
+            print("Wrong Input!")
         return
 
