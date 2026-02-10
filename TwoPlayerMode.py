@@ -1,4 +1,6 @@
 import os
+import keyboard 
+
 
 class TwoPlayerMode:
     def clear(self):
@@ -30,3 +32,5 @@ class TwoPlayerMode:
             print("It's a tie!")
         else:
             print("Wrong Input!")
+
+        return

@@ -1,5 +1,5 @@
 import random
-
+import keyboard
 
 class VsComputer:
     def start(self):
@@ -9,6 +9,7 @@ class VsComputer:
 
         print("Computer chose: " + computer)
 
+     
         if computer == 'r' and person == 's':
             print("You Lose!")
         elif computer == 's' and person == 'p':
@@ -25,4 +26,5 @@ class VsComputer:
             print("It's a tie!")
         else:
             print("Wrong Input!")
+        return
 
